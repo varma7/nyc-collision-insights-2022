@@ -26,7 +26,7 @@ This project explores traffic collision data in New York City using Google BigQu
 <p align="center">
   <img src="images/top_contributing_factors.png" width="500"/>
   <img src="images/collisions_by_hour.png" width="500"/>
-  <img src="images/borough_collisions.png" width="500"/>
+  <img src="images/borough_collision.png" width="500"/>
   <img src="images/top_dangerous_streets.png" width="500"/>
 </p>
 
