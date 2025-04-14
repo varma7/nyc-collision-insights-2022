@@ -32,16 +32,15 @@ This project explores traffic collision data in New York City using Google BigQu
 
 ---
 ## 🗺️ Interactive Map
+ NYC Traffic Collision Maps – 2022 (15,000 Sampled Records)
 
-Explore an interactive map of 1,000 randomly sampled accidents in NYC. Each marker shows:
+To offer a detailed yet performant view of NYC’s traffic crash patterns, these maps were built using 15,000 sampled records from the 2022 dataset.
 
-- Borough
-- Street
-- Contributing factor
-- Vehicle type
-- Number of injured/killed
+---
 
-👉 Open the map here: [nyc_collisions_map.html](nyc_collisions_map.html)
+#### 1️⃣ Collision Marker Map (15K)
+
+Clustered map showing 15,000 sampled collisions. Viewers can click clusters to explore individual crash details by borough, street, and contributing factor.
 
 ---
 
@@ -59,8 +58,17 @@ Explore an interactive map of 1,000 randomly sampled accidents in NYC. Each mark
 ---
 
 ## 📂 Project Structure
-Traffic-Collision-Analysis/ ├── README.md ├── nyc_collision_analysis.ipynb ├── nyc_collisions_2022.csv ├── nyc_collisions_map.html ├── images/ │ ├── top_contributing_factors.png │ ├── collisions_by_hour.png │ ├── borough_collisions.png │ └── top_dangerous_streets.png
----
+Traffic-Collision-Analysis/
+├── README.md
+├── nyc_collision_analysis.ipynb
+├── nyc_collisions_2022.csv
+├── nyc_collisions_heatmap_clustered_full.html
+├── images/
+│   ├── nyc_heatmap_full_2022.png
+│   ├── top_contributing_factors.png
+│   ├── borough_collisions.png
+│   └── collisions_by_hour.png
+
 
 ## 📎 Dataset Source
 
