@@ -41,8 +41,32 @@ To offer a detailed yet performant view of NYC’s traffic crash patterns, these
 #### 1️⃣ Collision Marker Map (15K)
 
 Clustered map showing 15,000 sampled collisions. Viewers can click clusters to explore individual crash details by borough, street, and contributing factor.
+<p align="center">
+  <img src="images/nyc_collision_map_15k.png" width="700"/>
+</p>
+
+📍 [Open the interactive map](nyc_collisions_map.html)
 
 ---
+#### 2️⃣ Heatmap + Severity Markers (15K)
+
+Overlay of a collision heatmap and severity-based colored markers (🔵🟠🔴). Ideal for understanding both collision density and severity.
+
+<p align="center">
+  <img src="images/nyc_heatmap_15k.png" width="700"/>
+</p>
+
+📍 [Open the interactive map](nyc_collisions_heatmap.html)
+
+**Legend:**
+- 🔵 No injuries  
+- 🟠 Injuries  
+- 🔴 Fatalities  
+- 🌈 Heatmap = Higher density = hotter color
+
+---
+
+🛠️ Both maps are built using `folium`, `MarkerCluster`, and `HeatMap`, rendered in HTML for lightweight, browser-based interactivity.
 
 ## 🛠️ Tools Used
 
